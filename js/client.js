@@ -1,6 +1,6 @@
 //client side                                                                                                                                                                                                              // client side
 
-const socket=io('http://localhost:8000');
+const socket=io('https://real-time-chat-app-h0ol.onrender.com');
 const form =document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp')
 const messageContainer = document.querySelector(".container")
